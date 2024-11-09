@@ -25,10 +25,11 @@ import channelPrices from "@assets/a3.pdf";
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-        <Link size="md" href={bouquetOfChannels} download="boquet-of-channels.pdf">
+        <Link size="md" href={bouquetOfChannels} target="_blank">
             <Icon name="bx:download" /> Bouquet of channels
         </Link>
-        <Link size="md" href={channelPrices} download="channel-prices.pdf"><Icon name="bx:download" /> Channel Prices List</Link>
+        <Link size="md" href={channelPrices} target="_blank">
+            <Icon name="bx:download" /> Channel Prices List</Link>
     </div>
   </Container>
 </Layout>
